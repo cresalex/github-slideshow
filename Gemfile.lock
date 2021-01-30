@@ -249,6 +249,7 @@ GEM
       thread_safe (~> 0.1)
     unicode-display_width (1.6.0)
     yell (2.2.0)
+    kramdown (>= 2.3.0)
 
 PLATFORMS
   ruby
