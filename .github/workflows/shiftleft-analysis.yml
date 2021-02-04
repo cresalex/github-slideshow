@@ -7,7 +7,7 @@ on: push
 jobs:
   Scan-Build:
     # Scan runs on ubuntu, mac and windows
-    runs-on: ubuntu, mac and windows
+    runs-on: self-hosted
     steps:
     - uses: actions/checkout@v1
     # Instructions
