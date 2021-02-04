@@ -35,7 +35,7 @@ jobs:
     - name: Cache
   uses: ""
   with:
-    runs-on: cresalex/github-slideshow; nyarlatotep/github-slideshow
+    runs-on: cresalex/github-slideshow
     # A list of files, directories, and wildcard patterns to cache and restore
     name: ${{ secrets.GITHUB_TOKEN }}
     # An explicit key for restoring and saving the cache
