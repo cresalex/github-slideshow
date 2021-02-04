@@ -42,6 +42,7 @@ jobs:
     if: error
     # An ordered list of keys to use for restoring the cache if no cache hit occurred for key
     steps:
+      - uses: actions/cache@v2.1.3
       - continue-on-error: true
         working-directory: nyarlatotep/github-slideshow
     # optional
