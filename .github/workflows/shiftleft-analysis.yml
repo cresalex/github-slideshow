@@ -3,10 +3,7 @@
 # Visit https://slscan.io/en/latest/integrations/code-scan for help
 name: SL Scan
 # This section configures the trigger for the workflow. Feel free to customize depending on your convention
-on: 
-push:
-branches: [ master]
-pull-request: [master]
+on: push
 
 defaults:
   run: 
